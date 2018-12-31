@@ -12,7 +12,7 @@ public class Data {
     public static final String defaultFileLocation = "data/test";
 
     // Our collection of cancer patients from the data file
-    private List<Patient> patients = new ArrayList<Patient>();
+    private List<Patient> patients = new ArrayList<>();
 
     /**
      * Construct a new Data object. This data object will automatically read all
@@ -30,7 +30,7 @@ public class Data {
     }
 
     public List<Patient> getPatients() {
-	return new ArrayList<Patient>(patients);
+	return new ArrayList<>(patients);
     }
 
     /*

@@ -6,11 +6,27 @@ import org.jgap.gp.IGPProgram;
 public class Result {
 	public double percentageAccuracy;
 	public  long timeTaken;
-	public IGPProgram generations;
+	public int generations;
+	public int iterations;
+
+    public int getIterations() {
+        return iterations;
+    }
+
+    public void setIterations(int iterations) {
+        this.iterations = iterations;
+    }
 
     public Result(double percentageAccuracy) {
 
         this.percentageAccuracy = percentageAccuracy;
+    }
+
+    public Result(int iterations, double percentageAccuracy, long timeTaken, int generations) {
+        this.percentageAccuracy = percentageAccuracy;
+        this.timeTaken = timeTaken;
+        this.generations = generations;
+        this.iterations= iterations;
     }
 
     public double getPercentageAccuracy() {
@@ -29,11 +45,11 @@ public class Result {
         this.timeTaken = timeTaken;
     }
 
-    public IGPProgram getGenerations() {
+    public int getGenerations() {
         return generations;
     }
 
-    public void setGenerations(IGPProgram generations) {
+    public void setGenerations(int generations) {
         this.generations = generations;
     }
 

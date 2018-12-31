@@ -55,10 +55,40 @@
 
         </div>
         <div class="col-lg-6">
-            <div class="panel panel-default">
-                <div class="panel-body">Algorithm Units</div>
+            <div class="panel-group">
+                <div class="panel panel-primary">
+                    <div class="panel-body">Algorithm Output</div>
+                </div>
+                <div class="panel panel-success">
+                    <div class="panel-body">
 
 
+                        <table  th:inline="none" cellspacing="0" width="100%" class="table table-striped">
+                            <br/>
+
+                            <thead>
+                            <tr>
+                                <th>Iteration</th>
+                                <th>Generations Evolved</th>
+                                <th>Percentage Accuracy %</th>
+                                <th>Time Taken/Seconds</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr th:each="runQueue : ${runQueue}">
+                                <td th:text="${runQueue.iterations}"></td>
+                                <td th:text="${runQueue.generations}"></td>
+                                <td th:text="${runQueue.percentageAccuracy}"></td>
+                                <td th:text="${runQueue.timeTaken}"></td>
+
+                            </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -71,7 +101,7 @@
                 <div class="panel panel-success">
                     <div class="panel-body">
                         <div class="row">
-                            <label class="col-sm-6">Time Taken</label>
+                            <label class="col-sm-6">Overall Trials Time</label>
                             <div class="col-sm-6" th:text="${endTimeMillis}"></div>
                         </div>
 

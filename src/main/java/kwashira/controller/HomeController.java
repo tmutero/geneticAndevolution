@@ -32,11 +32,11 @@ public class HomeController {
 
     private static final String defaultTrainingFile = "datasets/training.txt";
     private static final String defaultTestFile = "datasets/test.txt";
-     public static final int maxGenerations = 100; // Maximum number of generations to evolve
+    public static final int maxGenerations = 100; // Maximum number of generations to evolve
     public static final int stepSize = 1; // The number of times to evolve in one step (iteration)
     public static final String DATASETS_PATH = "datasets/";
     String[] fileNames;
-    long startTimeMillis, endTimeMillis;
+    long endIterationsMillis, endTimeMillis;
 
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
@@ -67,9 +67,8 @@ public class HomeController {
         Data testData;
         long startTimeMillis;
         List<Result> runQueue = new ArrayList<>();
-        System.out.println("----------------------------------------Crossover Type--"+inputsDTO.getCrossoverType());
         System.out.println("Training data being read from: " + defaultTrainingFile);
-        long beforeUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
+        long beforeUsedMem = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         startTimeMillis = System.currentTimeMillis();
 
         try {
@@ -78,22 +77,33 @@ public class HomeController {
 
             //System.out.println("Test data being read from: " + defaultTestFile);
 
-           //data beign loaded here test Data
-            testData = new Data(DATASETS_PATH+inputsDTO.getDataset());
-
-
-
-
-          for (int k = 0; k < inputsDTO.getTrials(); k++) {
+            //data beign loaded here test Data
+            testData = new Data(DATASETS_PATH + inputsDTO.getDataset());
+            for (int k = 0; k < inputsDTO.getTrials(); k++) {
                 // Set up Genetic Program configuration
                 GPConfiguration config = new GPConfiguration();
                 config.setGPFitnessEvaluator(new DefaultGPFitnessEvaluator());
                 config.setMaxInitDepth(6);
-                config.setPopulationSize(100);
+                config.setPopulationSize(inputsDTO.getPopulation());
                 config.setMaxCrossoverDepth(6);
                 config.setFitnessFunction(new Classification.FitnessFunction());
                 config.setStrictProgramCreation(true);
-                config.setMutationProb(1f);
+
+                switch (inputsDTO.getMutationType()) {
+                    case "singleInvert":
+                        config.setMutationProb(25f);
+                        break;
+                    case "doubleInvert":
+                        config.setMutationProb(50f);
+                        break;
+                    case "hyperMutate":
+                        config.setMutationProb(75f);
+                        break;
+                    default:
+                        config.setMutationProb(1f);
+                        break;
+                }
+
                 config.setCrossoverProb(90f);
 
                 // Create our genetic program
@@ -107,7 +117,7 @@ public class HomeController {
                  */
 
 
-                for (int i = 0; i < maxGenerations; i += 2) {
+                for (int i = 0; i < inputsDTO.getMaxGeneration(); i += 2) {
                     geneticProgram.evolve(stepSize);
                     if (geneticProgram.getAllTimeBest() != null && geneticProgram.getAllTimeBest().getFitnessValue() >= 98) {
                         System.out.println("\nStopping as fitness value of current solutions is greater or equal to 98%");
@@ -125,15 +135,15 @@ public class HomeController {
                         .getAllTimeBest());
 
 
+                endIterationsMillis = System.currentTimeMillis() - startTimeMillis;
 
                 System.out.printf("\nCorrect Classification Percent: %.2f%%", percentCorrect);
-                Result result2 = new Result(percentCorrect);
+                Result result2 = new Result(k, percentCorrect, endIterationsMillis, 34);
 
                 runQueue.add(result2);
 
                 Configuration.reset();
             }
-
 
 
         } catch (FileNotFoundException e) {
@@ -145,21 +155,18 @@ public class HomeController {
 
         endTimeMillis = System.currentTimeMillis() - startTimeMillis;
 
-        long afterUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
+        long afterUsedMem = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 
-        long actualMemUsed=afterUsedMem-beforeUsedMem;
-
-
-        System.out.println("Time Taken----------------------\n"+endTimeMillis);
-        System.out.println("Memory Usage++++++++++++++++++++\n"+actualMemUsed);
-        model.addAttribute("endTimeMillis", endTimeMillis);
-        model.addAttribute("actualMemUsed",actualMemUsed);
+            long actualMemUsed = afterUsedMem - beforeUsedMem;
+ model.addAttribute("endTimeMillis", endTimeMillis);
+        model.addAttribute("actualMemUsed", actualMemUsed);
         model.addAttribute("algorithm", inputsDTO.getAlgorithm());
         model.addAttribute("selection", inputsDTO.getSelectionType());
         model.addAttribute("crossover", inputsDTO.getCrossoverType());
         model.addAttribute("mutation", inputsDTO.getMutationType());
         model.addAttribute("population", inputsDTO.getPopulation());
         model.addAttribute("dataset", inputsDTO.getDataset());
+        model.addAttribute("runQueue", runQueue);
 
         return "result";
     }

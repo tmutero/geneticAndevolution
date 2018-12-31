@@ -33,7 +33,7 @@ dependencies {
     runtime('org.springframework.boot:spring-boot-devtools')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     // https://mvnrepository.com/artifact/net.sf.jgap/jgap
-   compile group: 'net.sf.jgap', name: 'jgap', version: '3.4.4'
+   //compile group: 'net.sf.jgap', name: 'jgap', version: '3.4.4'
 
 // https://mvnrepository.com/artifact/cn.apiclub.third/jgap
    // compile group: 'cn.apiclub.third', name: 'jgap', version: '3.6.2'

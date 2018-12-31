@@ -15,6 +15,17 @@ import org.jgap.gp.impl.GPGenotype;
 import org.jgap.gp.terminal.Variable;
 import org.jgap.gp.terminal.Terminal;
 
+//import org.jgap.InvalidConfigurationException;
+//import org.jgap.gp.CommandGene;
+//import org.jgap.gp.GPFitnessFunction;
+//import org.jgap.gp.GPProblem;
+//import org.jgap.gp.IGPProgram;
+//import org.jgap.gp.function.*;
+//import org.jgap.gp.impl.GPConfiguration;
+//import org.jgap.gp.impl.GPGenotype;
+//import org.jgap.gp.terminal.Variable;
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -124,6 +135,8 @@ public class Classification extends GPProblem {
 		    }
 
 		    if (Class == patients.get(i).getAClass()) {
+
+
 			correct++;
 		    }
 		} catch (ArithmeticException exception) {
