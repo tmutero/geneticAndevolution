@@ -3,6 +3,7 @@ package kwashira.main;
 
 import kwashira.algorithm.Classification;
 import kwashira.data.Data;
+
 import kwashira.data.Result;
 import org.jgap.Configuration;
 import org.jgap.InvalidConfigurationException;

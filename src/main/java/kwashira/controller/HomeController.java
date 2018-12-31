@@ -67,10 +67,10 @@ public class HomeController {
         Data testData;
         long startTimeMillis;
         List<Result> runQueue = new ArrayList<>();
-
+        System.out.println("----------------------------------------Crossover Type--"+inputsDTO.getCrossoverType());
         System.out.println("Training data being read from: " + defaultTrainingFile);
-
         long beforeUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
+        startTimeMillis = System.currentTimeMillis();
 
         try {
             trainingData = new Data("datasets/training.txt");
@@ -80,8 +80,6 @@ public class HomeController {
 
            //data beign loaded here test Data
             testData = new Data(DATASETS_PATH+inputsDTO.getDataset());
-
-            startTimeMillis = System.currentTimeMillis();
 
 
 
@@ -95,7 +93,7 @@ public class HomeController {
                 config.setMaxCrossoverDepth(6);
                 config.setFitnessFunction(new Classification.FitnessFunction());
                 config.setStrictProgramCreation(true);
-             //   config.setMutationProb(1f);
+                config.setMutationProb(1f);
                 config.setCrossoverProb(90f);
 
                 // Create our genetic program
@@ -126,7 +124,6 @@ public class HomeController {
                 double percentCorrect = new Classification.FitnessFunction().computeFitness(geneticProgram
                         .getAllTimeBest());
 
-                System.out.println("GA finished after " + (System.currentTimeMillis() - startTimeMillis) + "ms and");
 
 
                 System.out.printf("\nCorrect Classification Percent: %.2f%%", percentCorrect);
@@ -138,8 +135,6 @@ public class HomeController {
             }
 
 
-               System.out.println("+++" + runQueue);
-
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -147,22 +142,18 @@ public class HomeController {
             e.printStackTrace();
         }
 
-        startTimeMillis = System.currentTimeMillis();
-
-
 
         endTimeMillis = System.currentTimeMillis() - startTimeMillis;
 
         long afterUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
 
         long actualMemUsed=afterUsedMem-beforeUsedMem;
-        System.out.println("Time Start----------------------\n"+startTimeMillis);
-        System.out.println("Memory Start++++++++++++++++++++\n"+beforeUsedMem);
 
 
         System.out.println("Time Taken----------------------\n"+endTimeMillis);
         System.out.println("Memory Usage++++++++++++++++++++\n"+actualMemUsed);
         model.addAttribute("endTimeMillis", endTimeMillis);
+        model.addAttribute("actualMemUsed",actualMemUsed);
         model.addAttribute("algorithm", inputsDTO.getAlgorithm());
         model.addAttribute("selection", inputsDTO.getSelectionType());
         model.addAttribute("crossover", inputsDTO.getCrossoverType());

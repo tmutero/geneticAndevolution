@@ -213,3 +213,144 @@
 [30.12.2018 12:11:09,651] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
 [30.12.2018 12:11:09,894] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 236.0 MB
 [30.12.2018 12:11:09,899] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 233.3 MB
+[30.12.2018 12:14:14,927] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[30.12.2018 12:14:14,928] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 512.0 MB
+[30.12.2018 12:14:14,933] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[30.12.2018 12:14:14,941] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,943] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,944] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,946] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,947] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,949] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,951] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,956] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,960] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,962] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,964] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,966] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,967] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,968] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,969] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,971] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,975] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,980] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,984] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,988] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,992] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,994] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,996] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:14,998] [http-nio-9098-exec-4] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:14:15,165] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 498.5 MB
+[30.12.2018 12:14:15,168] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 479.5 MB
+[30.12.2018 12:14:15,371] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Best solution fitness: 79.90
+[30.12.2018 12:14:15,373] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Best solution: (m - ushp) * (m + bn) ==> (Arg(1) + Arg(0) + Arg(2)) + (Arg(2) + Arg(1) + Arg(0)) + (Arg(0) + Arg(2) + Arg(0))
+[30.12.2018 12:14:15,374] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Depths of chroms: 2 / 2
+[30.12.2018 12:14:15,376] [http-nio-9098-exec-4] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 1, memory free: 476.3 MB
+[30.12.2018 12:16:28,984] [http-nio-9098-exec-7] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[30.12.2018 12:16:28,997] [http-nio-9098-exec-7] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 439.0 MB
+[30.12.2018 12:16:29,011] [http-nio-9098-exec-7] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[30.12.2018 12:16:29,041] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,046] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,047] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,050] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,056] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,059] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,061] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,063] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,069] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,074] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,076] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,078] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,080] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,082] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,083] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,084] [http-nio-9098-exec-7] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:29,324] [http-nio-9098-exec-7] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 454.0 MB
+[30.12.2018 12:16:29,332] [http-nio-9098-exec-7] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 434.1 MB
+[30.12.2018 12:16:49,993] [http-nio-9098-exec-8] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[30.12.2018 12:16:50,002] [http-nio-9098-exec-8] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 499.5 MB
+[30.12.2018 12:16:50,005] [http-nio-9098-exec-8] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[30.12.2018 12:16:50,013] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,017] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,020] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,021] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,023] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,026] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,029] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,032] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,036] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,038] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,043] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,047] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,050] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,051] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,053] [http-nio-9098-exec-8] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:16:50,199] [http-nio-9098-exec-8] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 500.0 MB
+[30.12.2018 12:16:50,203] [http-nio-9098-exec-8] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 479.1 MB
+[30.12.2018 12:19:56,919] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[30.12.2018 12:19:56,933] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 443.5 MB
+[30.12.2018 12:19:56,959] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[30.12.2018 12:19:56,993] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,000] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,006] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,014] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,034] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,044] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,053] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,060] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,066] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,073] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,078] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,086] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,091] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,099] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,103] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,113] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,120] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,126] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,132] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[30.12.2018 12:19:57,428] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 443.5 MB
+[30.12.2018 12:19:57,433] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 422.8 MB
+[31.12.2018 06:17:34,434] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[31.12.2018 06:17:34,564] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 236.0 MB
+[31.12.2018 06:17:34,761] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[31.12.2018 06:17:34,892] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:34,960] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:34,995] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,036] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,046] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,066] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,084] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,110] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,134] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,154] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,213] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,251] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,281] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,330] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,351] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,373] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,392] [main] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:17:35,732] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 236.0 MB
+[31.12.2018 06:17:35,739] [main] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 232.1 MB
+[31.12.2018 06:44:20,611] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[31.12.2018 06:44:20,625] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 352.0 MB
+[31.12.2018 06:44:20,653] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set
+[31.12.2018 06:44:20,686] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,704] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,715] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,721] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,736] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,742] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,745] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,754] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,760] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,764] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,771] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,778] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,782] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,785] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,788] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:20,794] [http-nio-9098-exec-1] WARN  org.jgap.gp.impl.GPPopulation  - Prototype program reused because random program did not satisfy constraints
+[31.12.2018 06:44:21,240] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 352.0 MB
+[31.12.2018 06:44:21,248] [http-nio-9098-exec-1] INFO  org.jgap.gp.impl.GPGenotype  - Evolving generation 0, memory free: 332.0 MB
